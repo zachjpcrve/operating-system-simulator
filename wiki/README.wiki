@@ -17,6 +17,4 @@ CPU lower bound : 0
 CPU upper bound 0
 Incorrect usages.
 Correct usage is as follows
-java Simulator FIFO <numprocesses> <cpu_lower> <cpu_upper> 
-java Simulator Round Robin <numprocesses> <cpu_lower> <cpu_upper>
-java Simulator FSS <numprocesses> <cpu_lower> <cpu_upper> 
+java Simulator [FIFO, RR, FSS] numprocesses cpu_lower cpu_upper 
